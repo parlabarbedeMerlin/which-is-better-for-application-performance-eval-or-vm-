@@ -9,7 +9,7 @@ function removeANSIEscapeCodes(input) {
 
 export default async function handler(req, res) {
     try {
-        const { stdout, stderr } = await promisifiedExec('node pages/api/calcul.js');
+        const { stdout } = await promisifiedExec('node pages/api/calcul.js');
         const formattedResult = removeANSIEscapeCodes(stdout).trim();
         //console.log(`stdout: ${formattedResult}`);
         //console.log('Calculation result:', formattedResult);

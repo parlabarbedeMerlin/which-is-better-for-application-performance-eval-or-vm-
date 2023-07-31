@@ -3,7 +3,8 @@ export default function handler(req, res) {
     const vm = require('node:vm');
 
     const context = {
-        calcloop: 100000
+        calcloop: 100000,
+        evalStr: undefined
     }
 
     vm.createContext(context);
