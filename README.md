@@ -109,7 +109,7 @@ plt.show()
 
 <h4 id="Les-resultats">Les résultats</h4>
 Le dernier programme nous renvoie les résultats suivants sous forme la forme d'un graphique :
-![graphique](./rmimg/img.png)
+![graphique](https://github.com/parlabarbedeMerlin/which-is-better-for-application-performance-eval-or-vm-/blob/main/rmimg/img.png?raw=true)
 Comme nous pouvons l'observer dans le graphique ci-dessus, pour effectuer un même calcul, le plus rapide reste le child process, ensuite vient eval et enfin le vm. Nous allons donc essayer d'apporter une explication à ces résultats.
 
 <h3 id="Les-explications-possibles">Les explications possibles</h3>
