@@ -1,5 +1,9 @@
 # Comparaison de performance pour l'exécution de code JS
 
+**The information below is inaccurate and out of date. A new corrected and updated version with new things is being written. In the meantime, I highly recommend that you do your own research!**
+
+
+
 <h2 id="Abstract">Abstract</h2>
 L'objectif de ce document est de comparer les différentes solutions pour exécuter du code JS côté serveur avec NodeJS. Nous allons donc voir les avantages et les inconvénients de chacune de ces solutions.
 
